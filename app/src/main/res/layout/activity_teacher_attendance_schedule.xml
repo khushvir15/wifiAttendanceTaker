@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherAttendanceScheduleActivity">
+
+    <Button
+        android:id="@+id/btnMlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <TextView
+        android:id="@+id/txtMSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Select Shift"
+        android:textSize="42sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMlogout"
+        app:layout_constraintVertical_bias="0.064" />
+
+
+    <Button
+        android:id="@+id/btnMSchedule1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Shift 09:00 AM to 12:00 PM Attendance"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMSchedule"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <Button
+        android:id="@+id/btnMSchedule2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Shift 12:00 PM to 06:00 PM Attendance"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMSchedule1"
+        app:layout_constraintVertical_bias="0.094" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

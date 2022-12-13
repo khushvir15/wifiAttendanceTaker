@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wi_fiattendance">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WiFiAttendance">
+        <activity
+            android:name=".AttendanceList2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".AttendanceListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdminScheduleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherShift2DetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherShift1DetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherAttendanceScheduleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CCListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CDListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CheckStudentAttendanceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StudentCCDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StudentCDDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StudentScheduleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TeacherScheduleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

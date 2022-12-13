@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "384659063159",
+    "project_id": "wi-fi-attendance-de962",
+    "storage_bucket": "wi-fi-attendance-de962.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384659063159:android:4d919f60a2f9729976a172",
+        "android_client_info": {
+          "package_name": "com.example.wi_fiattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384659063159-c80n79jtbkppru0s7d006061ghl366l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkzQurLRkNvN5IvQWruyHuROKVsl3AJ-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384659063159-c80n79jtbkppru0s7d006061ghl366l5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
